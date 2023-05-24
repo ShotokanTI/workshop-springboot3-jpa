@@ -49,6 +49,10 @@ public class Order implements Serializable {
         this.id = id;
     }
 
+    public User getClient() {
+        return client;
+    }
+
     public Instant getMoment() {
         return moment;
     }
